@@ -4,6 +4,6 @@ module top_module (
     output [7:0] q
 );
     always @ (posedge clk)begin
-        q[7:0]=d[7:0];
+        q[7:0]<=d[7:0];
     end
 endmodule
